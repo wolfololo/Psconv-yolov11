@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+.env
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+._.DS_Store
+Thumbs.db
+
+# Datasets (place the SEA dataset here, do not commit it)
+sea/
+datasets/
+
+# Training outputs
+runs/
+result/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.mlmodel
+
+# Logs / caches
+*.log
+.cache/
+wandb/
+
+# Local reference copy of the upstream repo (not part of this project)
+yolo11-main/
